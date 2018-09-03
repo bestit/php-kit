@@ -1,5 +1,5 @@
 {
-    "name": "prismic/php-sdk",
+    "name": "bestit/php-kit",
     "description": "PHP development kit for prismic.io",
 
     "autoload": {
