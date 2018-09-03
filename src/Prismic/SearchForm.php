@@ -262,7 +262,7 @@ class SearchForm
      */
     public function url()
     {
-        $url = $this->form->getAction() . '?' . http_build_query($this->data);
+        $url = $this->form->getAction() . '&' . http_build_query($this->data);
         $url = preg_replace('/%5B(?:[0-9]|[1-9][0-9]+)%5D=/', '=', $url);
         return $url;
     }
